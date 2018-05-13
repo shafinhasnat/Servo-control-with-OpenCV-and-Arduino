@@ -10,7 +10,7 @@ y=0
 ser = serial.Serial('com4',9600)
 time.sleep(2)
 font=cv2.FONT_HERSHEY_SIMPLEX
-FaceCascade=cv2.CascadeClassifier('C:/Users/shafi/Desktop/OpenCV/haarcascade_frontalface_default.xml')
+FaceCascade=cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 cap=cv2.VideoCapture(0)
 def BoxDraw():
     cv2.line(flipit,(213,0),(213,480),(255,0,0),2)
